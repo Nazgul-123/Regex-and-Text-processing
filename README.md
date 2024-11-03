@@ -21,26 +21,26 @@ pandas - для работы с данными.
 
 ## Примеры использования
 * Замена римских цифр
-«{python} {
+```
 text = "В XIV веке произошло MCCCXLV важных событий"
 result = convert_roman_numbers(text)
-}“»
+```
 
 * Создание частотного словаря
-«{python} {
+```
 tokens = preprocess_text(text)
 freq_dict = Counter(tokens)
-}“»
+```
 
 * Вычисление TF-IDF
-«{python} {
+```
 tfidf = calculate_tfidf(documents)
-}“»
+```
 
 * Автореферирование  
-«{python} {
+```
 summary = summarize(text, compression_ratio=0.3)
-}“»
+```
 
 ## Структура проекта
 * Замена римских цифр
